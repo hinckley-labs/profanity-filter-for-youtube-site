@@ -16,7 +16,7 @@
 
       <main class="doc">
         <h1>Privacy Policy</h1>
-        <p class="meta">Effective October 16, 2026 · Updated November 16, 2026</p>
+        <p class="meta">Effective October 16, 2026 · Updated November 17, 2026</p>
 
         <p>
           Profanity Filter for YouTube ("the extension") mutes swear words in YouTube videos. This policy explains what
@@ -25,7 +25,7 @@
 
         <h2>What the extension does not do</h2>
         <ul>
-          <li>It does not collect, store, or transmit your browsing history, the videos you watch, or anything you type.</li>
+          <li>It does not collect, store, or transmit your browsing history, the videos you watch, or anything you type. The one exception is videos you choose to add your own mutes to (see "Your custom mutes" below).</li>
           <li>It does not use analytics, tracking, advertising, or cookies of its own.</li>
           <li>It does not send any data to the developer. The developer runs no servers for this extension.</li>
           <li>It does not sell or share any data with anyone.</li>
@@ -46,14 +46,24 @@
           <li>
             <strong>Your mute stats.</strong> So you can see how much the filter has done, it keeps a running count of the
             words it has muted: how many times each word was muted, how many on each day, and how many videos had a word
-            muted. It does not record which videos those were. The counts are saved only on your device (they are not
-            synced), are never sent anywhere, and can be cleared at any time with "Reset stats" on the settings page.
+            muted. It does not record which videos those were. The counts are saved with Chrome's storage on your device, and if
+            you use Chrome Sync, Chrome may sync them between your own devices under Google's privacy policy so the total
+            carries across your computers. They are never sent to the developer or anyone else, and can be cleared on all
+            of your devices at any time with "Reset stats" on the settings page.
           </li>
         </ul>
 
+        <p>
+          <strong>Your custom mutes.</strong> If you use "Edit mutes for this video" to add mutes of your own to a video (or to
+          skip one the captions found), the extension saves, for that video only, its YouTube video ID, its title, and the
+          times you set. This is saved with Chrome's storage, and if you use Chrome Sync, Chrome may sync it between your
+          own devices under Google's privacy policy. It is never sent to the developer or anyone else, and nothing is saved
+          for videos you don't edit. Removing all of a video's custom mutes, or deleting the video from the "My videos" list, deletes what was saved for it. If you choose to export your videos, the file is saved where you tell it to be saved and is only shared if you share it.
+        </p>
+
         <h2>Permissions</h2>
         <ul>
-          <li><strong>storage</strong>: to save your settings and your mute stats.</li>
+          <li><strong>storage</strong>: to save your settings, your mute stats, and your custom mutes.</li>
           <li>
             <strong>Access to www.youtube.com</strong>: to read the captions of the video you're watching and mute the
             player while a filtered word is spoken. The extension does not run on any other site.

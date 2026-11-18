@@ -243,6 +243,15 @@ code {
   font-size: 0.9em;
 }
 
+kbd {
+  padding: 1px 6px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--surface);
+  font: inherit;
+  font-size: 0.85em;
+}
+
 footer.site {
   padding: 32px 0 48px;
   border-top: 1px solid var(--border);
